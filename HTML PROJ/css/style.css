@@ -1,0 +1,156 @@
+* {
+        margin: 2px;
+        padding: 1px;
+       
+}
+
+.navigation {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family:var(--font1);   
+    height: 60px;
+   background-color: rgb(241, 229, 169);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-left{
+font-size: 30px;
+display: flex;
+margin: 0px 40px;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+    border: 2px rgb(91, 145, 188);
+    font-size: 8px;
+
+}
+.nav-left li{
+    border: 2px rgb(2, 2, 2);
+    font-size: 8px;
+   
+
+
+}
+.nav-left span{
+    font-size: 30px;
+    margin-right: 200px;
+}
+.nav-left ul li{
+list-style: none;
+margin: 10px 15px;
+font-size: 15px;
+
+
+}
+.nav-left ul li a:hover{
+    color: rgb(227, 235, 219);
+background-color: rgb(140, 61, 9);
+transition: all 0.3s ease-in-out;
+   
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px;
+   
+}
+.content {
+    display: flex;
+    height: 400px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+   padding: 6px;
+   
+   position: relative;
+    
+}
+#hrfont{
+    background-color: rgb(78, 90, 81);
+    border-radius: 2px;
+    border-color: yellowgreen;
+    margin: 1px;
+}
+.content::after{
+    content: "";
+    background-image: url('../img/ren.jpg');
+    position: absolute;
+    width: 1320px;
+    height: inherit;
+    opacity:0.60;
+    display: flex;
+    padding-bottom: 1px;
+    margin-bottom: 50px;
+}
+.content-left{
+   font-family: var(--font1);
+   margin-top: 10px;
+   border: 5px;
+   align-items: center;
+   justify-self: center;
+  
+}
+
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.content-right img{
+    height: 281px;
+    border: 3px solid;
+    border-radius: 2;
+    padding: 0px;
+    align-items: center;
+}
+
+.home-articles{
+    height: 1000px;
+    background-color: rgb(251, 245, 245);
+}
+.home-article-content{
+    align-self: center;
+    padding: 0px 30px;
+
+}
+.home-article-content a{
+    text-decoration: none;
+    color:black;
+}
+.home-article{
+   display: flex;
+   padding: 25px;
+}
+.home-article img{
+    width: 300px;
+    height: 300px;
+    border: black solid;
+    border-radius: 2px;
+}
+.footer {
+    height: 30px;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    color: rgb(255, 241, 239);
+    flex-direction: column;
+}
+footer p{
+    color: azure;
+}
+.my-2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.heading{
+    font-size: 23px;
+}
+.btn:hover{
+color: rgb(227, 235, 219);
+background-color: rgb(140, 61, 9);
+transition: all 0.3s ease-in-out;
+}

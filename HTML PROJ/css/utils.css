@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap');
+:root{
+    --main-bg-color: rgb(193, 193, 225);
+    --font1: 'Fredoka One', cursive;
+}
+
+
+.max-width-1{
+    max-width: 80vwvw;
+    
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin:auto;
+}
+.btn{
+    padding: 1px 3px;
+    padding-left: 12px;
+   border-radius: 9px;
+    margin: 1px 3px;
+ 
+}
+
+.form-input{
+    align-content: center;
+    padding: 2px 20px;
+    margin-inline: 80px;
+    padding-left: 50px;
+    border: 2px solid;
+  
+    margin: 23px 3px;
+    border-radius: 24px;
+    list-style: none;
+}
+.form-inputs{
+    align-content:flex;
+    text-align: left;
+    padding: 30px 20px;
+   /* margin-inline: 80px;*/
+    padding-left: 50px;
+    border: 101px saddlebrown ;
+    background-image: url('../img/ps.img.jpg');
+    /*margin:30px 30px;*/
+    border-radius: 24px;
+    list-style: none;
+    width="45%";
+    border: 5px solid;
+    margin: 22px 32px;
+}
+.formerror{
+color: red;
+}
+
+.but{
+    color: rgb(20, 0, 130);
+    border-radius: 20px;
+    width: 100px;
+    margin: 22px 30px;
+    font-size: 20px;
+}
+.btn:hover{
+    color: rgb(227, 235, 219);
+    background-color: rgb(140, 61, 9);
+    transition: all 0.3s ease-in-out;
+    }
+    .nav-left ul li a:hover{
+        color: rgb(227, 235, 219);
+    background-color: rgb(140, 61, 9);
+    transition: all 0.3s ease-in-out;
+       
+    }
